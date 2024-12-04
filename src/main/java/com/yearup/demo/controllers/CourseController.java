@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("courses")
 public class CourseController {
+
     private CourseService courseService;
 
     public CourseController(CourseService courseService) {
